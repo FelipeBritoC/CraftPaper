@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+h1{
+    margin:70px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(249, 252, 253);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 500px;
+    background-color:transparent;
+    border: 2px solid rgb(13, 1, 28);
+    border-radius: 10px;
+    color:black;
+    padding:20px 40px;
+}
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.input-login {
+    position: relative;
+    width: 100%;       
+    height: 60px;     
+    margin: 25px 0;
+}
+.input-login input {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding-left: 55px;   
+    font-size: 18px;      
+    background: transparent;
+    outline: none;
+}
+.input-login input::placeholder {
+    color: black;
+}
+.input-login span {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%); 
+    font-size: 28px;             
+}
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+button {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(13, 1, 28);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: rgb(33, 0, 62);
+}
+.cadastro {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+h1{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(252, 253, 253);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.cadastroProduto{
+    background-color: rgb(242, 240, 240);
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before{
+    content:"";
+    position:absolute;
+    background-color: royalblue;
+    width: 5px;
+    height: 100%;
+}
+.cadastroProduto input{
+    background-color: rgb(35, 186, 199);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+.first-content{
+    display:flex;
+}
+.first-column{
+    text-align: center;
+    flex:1 0 auto;
+
+}
+
+.list-social-media{
+    display:flex;
+}
+.form{
+    display:flex;
+}
+.second-container{
+    position: absolute;
+    display:none;
+
+}
